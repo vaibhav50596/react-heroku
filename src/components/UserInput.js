@@ -23,6 +23,7 @@ const UserInput = (props) => {
 
     return (
         <div style={divStyle}>
+            <h3>This is two-way binding!</h3>
             <input type="text" value = { props.currentValue } onChange={ props.changeUN } style={inputStyle}/>
             <button onClick = { props.handleClickUN } style={buttonStyle}> push IT</button>
         </div>
